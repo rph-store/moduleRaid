@@ -1,0 +1,34 @@
+{
+  "name": "@rph-store/moduleraid",
+  "version": "5.0.2",
+  "description": "Get modules from webpack v5",
+  "main": "moduleraid.js",
+  "scripts": {
+    "test": "mocha tests"
+  },
+  "types": "./moduleraid.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pixeldesu/moduleRaid.git"
+  },
+  "keywords": [
+    "webpack",
+    "module",
+    "research",
+    "extraction"
+  ],
+  "files": [
+    "moduleraid.js"
+  ],
+  "author": "Andreas Nedbal <andy@pixelde.su>, Pedro Lopez <pedroslopez@me.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pixeldesu/moduleRaid/issues"
+  },
+  "homepage": "https://github.com/@rph-store/moduleRaid#readme",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.0.2",
+    "puppeteer": "^10.1.0"
+  }
+}
